@@ -14,7 +14,7 @@ You will need the following tools to build the server:
 - `crossbuild-essential-armhf` apt package
   - This is included in the default repository, at least on Ubuntu
 
-Now you may run `make build`. Look in `build` for the server binary.
+Now you may run `make build`. Look in `build` for the server binary. You may run that on any ARM system with the strip connected; setup of the strip is beyond this overview.
 
 _Note:_ There are some artifacts around the system after building.. cleanup using `make cleanNative`
 
