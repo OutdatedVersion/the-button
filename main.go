@@ -17,6 +17,7 @@ func main() {
 
 	log.Println("Started light controller")
 
+	go lights.process()
 	defer lights.cleanup()
 
 	http.HandleFunc("/button/api/flash_light", func(writer http.ResponseWriter, request *http.Request) {
