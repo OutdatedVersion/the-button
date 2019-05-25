@@ -1,0 +1,8 @@
+github.com/jgarff/rpi_ws281x v0.0.0-20181226153614-ba3b5bdad55d h1:AL6yYVPUjzCyiBLxBewYx4B1oC0PuT7v4OWMFLIokJI=
+github.com/jgarff/rpi_ws281x v0.0.0-20181226153614-ba3b5bdad55d/go.mod h1:xbXlgWZjA66nkwNqkT4ol2EqY7jL8v+1efK5ZnOT/MU=
+github.com/pkg/errors v0.8.0 h1:WdK/asTD0HN+q6hsWO3/vpuAkAr+tw6aNJNDFFf0+qw=
+github.com/pkg/errors v0.8.0/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
+github.com/pkg/errors v0.8.1 h1:iURUrRGxPUNPdy5/HRSm+Yj6okJ6UtLINN0Q9M4+h3I=
+github.com/pkg/errors v0.8.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=
+github.com/rpi-ws281x/rpi-ws281x-go v1.0.3 h1:mp3eVMYTuaH1cTmnzo5nKSCrQfYTx7pkG7Jxxdl+aZc=
+github.com/rpi-ws281x/rpi-ws281x-go v1.0.3/go.mod h1:NJ9ZCa/NPRHHb841qr+G9IEJe1J4aOgBMwkf9xyDnmk=
