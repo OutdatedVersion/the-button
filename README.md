@@ -18,6 +18,10 @@ Now you may run `make build`. Look in `build` for the server binary.
 
 _Note:_ There are some artifacts around the system after building.. cleanup using `make cleanNative`
 
+## Client
+
+The client, `public/`, is nothing special, just throw it on any webserver. You will be responsible for handling how to get the API request back to the server.
+
 ## Tool configuration
 
 When I deployed this, I used [frp](https://github.com/fatedier/frp) as a proxy between my LAN and a server exposed to the Internet.
