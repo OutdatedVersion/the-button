@@ -1,26 +1,25 @@
 # The Button
 
-This project creates a website with a button that controls the illumination state of a light strip (which must be using the ws281x controller).
+This project provides a web interface to a a light strip (specifically one featuring a ws281x controller).
 
 ## Server
-
-The program itself is intented to run on the same CPU architecture as a Raspberry Pi.. though most people are not running on ARM so the build command uses cross compilation by default.
 
 You will need the following tools to build the server:
 
 - golang
-- gcc/make (apt `build-essentials`)
+- gcc/make (`build-essentials` via apt)
 - scons
-- `crossbuild-essential-armhf` apt package
-  - This is included in the default repository, at least on Ubuntu
+- `crossbuild-essential-armhf` cross-compilation build tools
+  - I used the package shipped with the default repositories on Ubuntu. As long as you
+    have the same tools installed you should be good to go.
 
-Now you may run `make build`. Look in `build` for the server binary. You may run that on any ARM system with the strip connected; setup of the strip is beyond this overview.
+Now you may run `make build`. Look in `build` for the server binary which can be used on any ARM system with a configured ws281x strip/matrix.
 
-_Note:_ There are some artifacts around the system after building.. cleanup using `make cleanNative`
+_Note:_ There are some artifacts around the system after building; cleanup using `make cleanNative`
 
 ## Client
 
-The client, `public/`, is nothing special, just throw it on any webserver. You will be responsible for handling how to get the API request back to the server.
+The client, `public/`, requires nothing special--throw it on your webserver of choice.
 
 ## Tool configuration
 
